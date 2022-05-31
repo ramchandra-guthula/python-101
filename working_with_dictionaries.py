@@ -79,3 +79,34 @@ for i in multiple_dic:
         multiple_dic[counter - 1]['id'] = 4 
 
 print(multiple_dic)
+
+
+"""
+Finding and remove duplicates from the given list, https://www.w3schools.com/python/python_howto_remove_duplicates.asp
+"""
+
+sample_list = ['a', 'b', 'a', 'c', 'c', 'd']
+duplicates = list(dict.fromkeys(sample_list)) # while creating a dictionary it removes the duplicates
+print(duplicates)
+
+"""
+Reverse string 
+"""
+
+txt = "Hello World"[::-1]
+print(txt)
+
+def reverse_string(given_string):
+    return given_string[::-1]
+
+print(reverse_string("reverse this string"))
+
+
+
+"""
+Find a duplicates in list
+"""
+sample_list1 = ['a', 'b', 'a', 'c', 'c', 'd']
+for i in sample_list1:
+    if sample_list1.count(i) > 1:
+        print(i)
