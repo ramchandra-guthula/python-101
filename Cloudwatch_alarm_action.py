@@ -3,9 +3,10 @@ from pprint import pprint
 
 # Create CloudWatch client
 cloudwatch = boto3.client('cloudwatch', region_name='eu-west-1')
-
+"""
 # describe = cloudwatch.describe_alarms()
 # pprint(describe)
+"""
 
 # Create alarm with actions enabled
 
