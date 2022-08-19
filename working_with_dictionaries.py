@@ -5,6 +5,11 @@ sample_dictionary1 = {"id": 1, "author": "ram", "book_name": "Life is a Lie"}
 sample_dictionary1["rating"] = 5
 print(f"Dictionary after adding a value: {sample_dictionary1}")
 
+# So, instead of the del statement you can use the pop method. This method takes in the key as the parameter.
+# As a second argument, you can pass the default value if the key is not present.
+sample_dictionary1.pop("id", none)
+
+
 
 """
 Delete a key from a  dictionary
