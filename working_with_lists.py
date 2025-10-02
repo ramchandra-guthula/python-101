@@ -1,4 +1,8 @@
 """
+List slicing - list[start:stop:step]
+"""
+
+"""
 Create a sample list
 """
 sample_list = ["Name", "Location", 30, "devops12"]
